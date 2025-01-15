@@ -141,7 +141,7 @@ There are two types of datatypes and they are: `Primary Datatype` and `User defi
 #### `Bool Values`
 
 - bool keyword and can take the values `true` or `false`
-  her
+  here.
 
 **Truthy and Falsy Values**
 
