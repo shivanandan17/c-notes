@@ -16,7 +16,7 @@
   - [Different types modifiers and their range](#different-types-of-modifiers-and-their-range)
   - [Format Specifiers](#format-specifiers)
   - [Type Conversions](#type-conversion)
-  - [Constaants](#constants)
+  - [Constants](#constants)
 
 - [Operators in C](#operators-in-c)
   - [Types of Operators](#types-of-operators)
