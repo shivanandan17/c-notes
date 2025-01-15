@@ -1,4 +1,4 @@
-# **Basic C Programming**
+s# **Basic C Programming**
 
 ## **Index**
 
@@ -158,6 +158,11 @@ There are two types of datatypes and they are: `Primary Datatype` and `User defi
   - `\0` -> `false`
 
 ### **Different types of modifiers and their range**
+
+`Range of Values`: **2<sup>(size of the datatype)\*8</sup>**
+
+- The multiplication by 8 in the formula **2<sup>(size of datatype)×8</sup>** comes from the fact that the size of a datatype (e.g., 1 byte, 2 bytes, etc.) is typically expressed in bytes, while the range of values depends on the number of bits.
+- `1 byte` = `8 bits`
 
 | Types of Modifier | Size ( byte ) | Range of values                       | Examples       |
 | ----------------- | ------------- | ------------------------------------- | -------------- |
