@@ -141,7 +141,21 @@ There are two types of datatypes and they are: `Primary Datatype` and `User defi
 #### `Bool Values`
 
 - bool keyword and can take the values `true` or `false`
-- `IMPORTANT NOTE`: In general in C, `0` means `false`, any other value other than `0` is `true` i.e `1`, `2`, `100` are `true`.
+  her
+
+**Truthy and Falsy Values**
+
+- In C, `0` and `NULL` means `false`. This plays a major role in the control statements.
+- Values other than `0` and `NULL` are considered to be `true`.
+- `\0` is another way of representing null value. Most commonly used for terminating string values, so that the compiler will know the end of the string. Example: `"String\0"`, `Hello World\0"`.
+- Examples:
+  - `0` -> `false`
+  - `1` -> `true`
+  - `-1` -> `true`
+  - `2` -> `true`
+  - `a` -> `true`
+  - `NULL` -> `false`
+  - `\0` -> `false`
 
 ### **Different types of modifiers and their range**
 
